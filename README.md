@@ -1,4 +1,4 @@
-# Projet APEKE : Détection, Alertes et Suivi Vidéo
+# Projet  : Détection, Alertes et tracking d'individu dans le réseau
 
 Ce projet est une solution complète d'analyse vidéo divisée en trois étapes clés : la détection d'objets, la surveillance de zones d'alerte et le suivi (tracking) de personnes spécifiques.
 
