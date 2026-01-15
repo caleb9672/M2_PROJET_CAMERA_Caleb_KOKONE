@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Models
+*.pt
+*_openvino_model/
+
+# Results and runs
+runs/
+results/
+results_alerts/
+step3_tracking/results/
+step3_tracking/runs/
+step3_tracking/track_image/
+
+# Data
+videos/*
+!videos/.gitkeep
+
+# Agent data
+.gemini/
+.agent/
+.vscode/

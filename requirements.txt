@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+pyyaml
+numpy
+tqdm
+torch
+torchvision
+pillow
+scipy
+openvino-dev

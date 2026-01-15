@@ -1,0 +1,28 @@
+# Configuration for Step 3: Specific Person Tracking
+
+# Models
+yolo_model_path: "../yolov8n.pt"
+reid_model: "resnet50" # resnet50 for now
+
+# Paths
+video_path: "../videos/CAMERA_DEBUT_COULOIR_DROIT.mp4"
+reference_images: 
+  - "track_image/caleb.png"
+  - "track_image/caleb1.png"
+  - "track_image/caleb2.png"
+  - "track_image/caleb3.png"
+  - "track_image/caleb4.png"
+  - "track_image/caleb5.png"
+output_dir: "results"
+output_video_name: "caleb_tracked.mp4"
+csv_output_name: "caleb_presence.csv"
+
+# Parameters
+detection_conf: 0.4
+similarity_threshold: 0.7
+imgsz: 640
+start_time: "12:10:00"
+
+# Optimization
+use_openvino: true
+device: "cpu" # "cpu" or "cuda"

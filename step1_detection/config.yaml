@@ -1,0 +1,11 @@
+model_path: "../../yolov8n.pt"
+video_dir: "../../videos"
+output_dir: "results"
+start_time: "12:10:00"
+target_classes: [0, 24, 26]  # person, backpack, handbag
+imgsz: 640
+conf: 0.25
+save_video: false
+use_openvino: true
+num_workers: 2
+device: "cpu"
